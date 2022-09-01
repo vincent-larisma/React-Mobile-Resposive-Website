@@ -1,0 +1,34 @@
+.background-nav {
+  background-image: url('../imgs/Nav/bg.png');
+  height: 90px;
+  width: auto;
+
+  .background-logo {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 100px;
+    margin-top: 25px;
+
+    .company-logo {
+      height: 75px;
+    }
+  }
+  .company-title {
+    display: flex;
+    align-items: flex-end;
+    .company-title-img {
+      height: 45px;
+    }
+  }
+  .flex-list-container {
+    display: flex;
+    flex-direction: column; 
+  }
+}
+.background-nav-bottom {
+  background-image: url('../imgs/Nav/bttm\ bar.png');
+  height: 19px;
+}

@@ -1,5 +1,33 @@
 import React from 'react'
 
+//Pics
+import SiteTitle from '../../imgs/Nav/site-title.png'
+import CompanyLogo from '../../imgs/Nav/logo.png'
+
 export default function Navbar() {
-  return <div>Navbar</div>
+  return (
+    <>
+      <section className='background-nav columns'>
+        <div className='column is-2'></div>
+        <div className='column is-1'>
+          <div className='background-logo'>
+            <img src={CompanyLogo} alt='Company Logo' className='company-logo' />
+          </div>
+        </div>
+        <div className='column company-title is-2'>
+          <img src={SiteTitle} className='company-title-img' alt='Site Title' />
+        </div>
+        <div className='column is-5 '>
+          <ul className='flex-list-container'>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Insights</li>
+            <li>Events</li>
+          </ul>
+        </div>
+        <div className='column is-2'></div>
+      </section>
+      <div className='background-nav-bottom'></div>
+    </>
+  )
 }
