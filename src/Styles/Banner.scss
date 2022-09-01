@@ -1,6 +1,16 @@
 .banner-background-container {
   background-image: url('../imgs/Banner/img.png');
-  background-size: ;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 25rem;
+}
+
+.content {
+  display: flex;
+  align-self: center;
+
+  .content-image {
+    height: 10rem;
+  }
 }

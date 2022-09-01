@@ -7,10 +7,11 @@ export default function Banner() {
   return (
     <>
       <section className='banner-background-container columns'>
+        <div className='column is-2'></div>
         <div className='content column'>
-          <img src={Content} alt='Content' />
+          <img src={Content} alt='Content' className='content-image' />
         </div>
-        <div className='column'></div>
+        <div className='column is-half'></div>
       </section>
     </>
   )
