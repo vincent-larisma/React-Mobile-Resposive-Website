@@ -7,7 +7,7 @@ import CompanyLogo from '../../imgs/Nav/logo.png'
 export default function Navbar() {
   return (
     <>
-      <section className='background-nav columns'>
+      <section className='background-nav columns is-responsive'>
         <div className='column is-2'></div>
         <div className='column is-1'>
           <div className='background-logo'>
@@ -17,13 +17,13 @@ export default function Navbar() {
         <div className='column company-title is-2'>
           <img src={SiteTitle} className='company-title-img' alt='Site Title' />
         </div>
-        <div className='column is-5 '>
-          <ul className='flex-list-container'>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Insights</li>
-            <li>Events</li>
-          </ul>
+        <div className='column is-5 flex-list-container mt-5'>
+          <div className='border-left'></div>
+          <li>Home</li>
+          <li>About us</li>
+          <li>Insights</li>
+          <li>Events</li>
+          <li>Contact Us</li>
         </div>
         <div className='column is-2'></div>
       </section>
