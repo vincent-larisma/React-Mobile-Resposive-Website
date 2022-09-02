@@ -7,7 +7,7 @@ import CompanyLogo from '../../imgs/Nav/logo.png'
 export default function Navbar() {
   return (
     <>
-      <section className='background-nav columns '>
+      <section className='background-nav columns grid'>
         <div className='column is-2'></div>
         <div className='column is-1'>
           <div className='background-logo'>

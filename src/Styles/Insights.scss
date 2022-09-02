@@ -1,0 +1,33 @@
+.background-color {
+  background-color: #ebebeb;
+}
+
+.card-size {
+  height: 3rem;
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+}
+
+.card-one::after {
+  content: '';
+  display: block;
+  height: 0.8rem;
+  background: #1853d2;
+}
+
+.card-two::after {
+  content: '';
+  display: block;
+  height: 0.8rem;
+  background: #39b7b1;
+}
+
+.card-three::after {
+  content: '';
+  display: block;
+  height: 0.8rem;
+  background: #009bfa;
+}

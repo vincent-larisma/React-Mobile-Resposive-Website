@@ -1,0 +1,8 @@
+.grid {
+  display: grid;
+  grid-template-columns: [margin-start] 1fr [center-start] minmax(0, 900px) [center-end] 1fr [margin-end];
+}
+
+.grid-center {
+  grid-column: margin-start/center-start;
+}

@@ -1,0 +1,26 @@
+.aboutus-background-container {
+  background-image: url('../imgs/AboutUs/images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 25rem;
+
+  .contact-us-btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 0.8rem 3rem;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+    }
+  }
+}
+
+.flex-container-aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
