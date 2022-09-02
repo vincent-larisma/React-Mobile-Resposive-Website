@@ -1,5 +1,8 @@
 import React from 'react'
 
+//Pics
+import Title from '../../imgs/EventsImage/title.png'
+
 export default function Events() {
   return (
     <>
