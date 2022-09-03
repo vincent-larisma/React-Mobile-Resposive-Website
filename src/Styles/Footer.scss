@@ -1,0 +1,16 @@
+.footer-background {
+  background-image: url('../imgs/Footer/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6rem;
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .flex-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+}
