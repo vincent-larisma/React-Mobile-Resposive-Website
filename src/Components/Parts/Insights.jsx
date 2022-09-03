@@ -12,16 +12,16 @@ import Title from '../../imgs/Insights/title.png'
 export default function Insights() {
   return (
     <>
-      <div className='background-color pb-6'>
+      <div className='background-color pb-6  '>
         <section className='columns pt-5'>
           <div className='column is-2'></div>
           <div className='column'>
             <img src={Title} alt='Title' />
           </div>
         </section>
-        <section className='columns'>
+        <section className='columns '>
           <div className='column is-2'></div>
-          <div className='column   card-one '>
+          <div className='column   card-one  '>
             <div className='cards p-5'>
               <figure className='image is-4by3 mb-6'>
                 <img src={InsightOne} alt='Insights' />
@@ -46,7 +46,7 @@ export default function Insights() {
             </div>
           </div>
 
-          <div className='column is-2'></div>
+          <div className='column is-2 '></div>
         </section>
       </div>
     </>
