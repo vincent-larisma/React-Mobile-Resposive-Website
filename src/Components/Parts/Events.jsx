@@ -25,7 +25,7 @@ export default function Events() {
           </div>
           <div className='event-flex-container column  '>
             <div className='p-5'>
-              <div className='events-flex-container-items event-image-second mb-6'>
+              <div className='events-flex-container-items event-image-second mb-6 '>
                 <p className='is-size-6 has-text-white '>Citywide Buyer’s Retreat</p>
                 <p className='has-text-white '>
                   Find out how banks are responding to the changing future of interest...
@@ -43,8 +43,6 @@ export default function Events() {
               </div>
             </div>
           </div>
-
-          <div className='column is-2'></div>
         </section>
       </div>
     </>

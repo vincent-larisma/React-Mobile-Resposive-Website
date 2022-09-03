@@ -11,10 +11,10 @@ export default function HomePage() {
     <>
       {/* <Navbar />
       <Banner />
-      <Insights /> */}
-      <WhoWeAre />
-      {/* <Events />
-      <Footer /> */}
+      <Insights />
+      <WhoWeAre /> */}
+      <Events />
+      <Footer />
     </>
   )
 }
