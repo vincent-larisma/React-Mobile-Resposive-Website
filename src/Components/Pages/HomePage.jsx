@@ -9,10 +9,10 @@ import Footer from '../Parts/Footer'
 export default function HomePage() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Banner />
       <Insights />
-      <WhoWeAre /> */}
+      <WhoWeAre />
       <Events />
       <Footer />
     </>

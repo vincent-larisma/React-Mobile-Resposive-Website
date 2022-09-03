@@ -9,7 +9,7 @@ import LinkedIn from '../../imgs/Footer/linkedin.png'
 export default function Footer() {
   return (
     <>
-      <footer className='footer-background columns'>
+      <footer className='footer-background columns is-mobile'>
         <div className='column is-2'></div>
         <div className='column has-text-white'>
           <p>Call us at 111-222-333</p>
