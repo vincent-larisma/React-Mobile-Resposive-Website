@@ -11,7 +11,6 @@ export default function Banner() {
         <div className='content column'>
           <img src={Content} alt='Content' className='content-image' />
         </div>
-        <div className='column is-half'></div>
       </section>
     </>
   )

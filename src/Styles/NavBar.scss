@@ -50,37 +50,43 @@
 
 //media queries
 @media (max-width: 1173px) {
-  .flex-list-container {
-    margin-left: 2rem;
+  .background-nav {
+    .flex-list-container {
+      margin-left: 2rem;
 
-    .border-left {
-      display: none;
+      .border-left {
+        display: none;
+      }
     }
   }
 }
 
 @media (max-width: 1024px) {
-  .flex-list-container {
-    margin-left: 4rem;
-  }
-  .company-title {
-    margin-right: 0rem;
-    margin-left: 1rem;
-  }
-  .placeholder-two {
-    display: none !important;
+  .background-nav {
+    .flex-list-container {
+      margin-left: 4rem;
+    }
+    .company-title {
+      margin-right: 0rem;
+      margin-left: 1rem;
+    }
+    .placeholder-two {
+      display: none !important;
+    }
   }
 }
 
 @media (max-width: 838px) {
-  .flex-list-container {
-    margin-left: 6rem;
-  }
-  .company-title {
-    margin-right: 0rem;
-    margin-left: 3rem;
-  }
-  .placeholder-div {
-    display: none !important;
+  .background-nav {
+    .flex-list-container {
+      margin-left: 6rem;
+    }
+    .company-title {
+      margin-right: 0rem;
+      margin-left: 3rem;
+    }
+    .placeholder-div {
+      display: none !important;
+    }
   }
 }
