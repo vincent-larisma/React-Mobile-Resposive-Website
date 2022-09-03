@@ -10,10 +10,10 @@ export default function HomePage() {
   return (
     <>
       {/* <Navbar />
-      <Banner /> */}
-      <Insights />
-      {/* <WhoWeAre />
-      <Events />
+      <Banner />
+      <Insights /> */}
+      <WhoWeAre />
+      {/* <Events />
       <Footer /> */}
     </>
   )
