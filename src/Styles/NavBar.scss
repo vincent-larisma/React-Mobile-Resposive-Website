@@ -1,7 +1,7 @@
 .background-nav {
   background-image: url('../imgs/Nav/bg.png');
   height: 5.625rem;
-  width: auto;
+  margin: 0 !important;
 
   .background-logo {
     background-color: white;
@@ -22,6 +22,7 @@
     margin-right: -3.4375rem;
     .company-title-img {
       height: 2.8125rem;
+      width: 8.65rem;
     }
   }
   .flex-list-container {
@@ -45,4 +46,41 @@
 .background-nav-bottom {
   background-image: url('../imgs/Nav/bttm\ bar.png');
   height: 2.1875rem;
+}
+
+//media queries
+@media (max-width: 1173px) {
+  .flex-list-container {
+    margin-left: 2rem;
+
+    .border-left {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .flex-list-container {
+    margin-left: 4rem;
+  }
+  .company-title {
+    margin-right: 0rem;
+    margin-left: 1rem;
+  }
+  .placeholder-two {
+    display: none !important;
+  }
+}
+
+@media (max-width: 838px) {
+  .flex-list-container {
+    margin-left: 6rem;
+  }
+  .company-title {
+    margin-right: 0rem;
+    margin-left: 3rem;
+  }
+  .placeholder-div {
+    display: none !important;
+  }
 }

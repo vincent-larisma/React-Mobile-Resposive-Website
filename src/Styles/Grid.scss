@@ -1,8 +1,8 @@
-.grid {
+.grid-container {
   display: grid;
-  grid-template-columns: [margin-start] 1fr [center-start] minmax(0, 900px) [center-end] 1fr [margin-end];
+  grid-template-columns: [page-start]1fr [md-start]minmax(0, 900px) [md-end] 1fr [page-end];
 }
 
-.grid-center {
-  grid-column: margin-start/center-start;
+.grid-container-center {
+  grid-column: md-start / md-end;
 }

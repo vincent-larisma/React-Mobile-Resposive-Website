@@ -10,11 +10,11 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
-      <Banner />
+      {/* <Banner />
       <Insights />
       <WhoWeAre />
       <Events />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
