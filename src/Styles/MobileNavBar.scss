@@ -1,0 +1,22 @@
+.mobile-nav-flex-container {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+
+  .logo-flex-item {
+    margin-left: 2rem;
+    img {
+      height: 3rem;
+    }
+  }
+
+  .menu-flex-item {
+    margin-right: 2rem;
+    img {
+      height: 1.5rem;
+    }
+  }
+}
