@@ -8,4 +8,7 @@
   .grid-container-page-last {
     grid-column: md-start / page-end;
   }
+  .grid-container-full-width {
+    grid-column: page-start / page-end;
+  }
 }

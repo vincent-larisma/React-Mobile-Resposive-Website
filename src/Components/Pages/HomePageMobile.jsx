@@ -4,7 +4,7 @@ import MobileBanner from '../Parts/MobileBanner'
 import MobileInsights from '../Parts/MobileInsights'
 import MobileWhoWeAre from '../Parts/MobileWhoWeAre'
 import MobileEvents from '../Parts/MobileEvents'
-import Footer from '../Parts/Footer'
+import MobileFooter from '../Parts/MobileFooter'
 
 export default function HomePageMobile() {
   return (
@@ -14,6 +14,7 @@ export default function HomePageMobile() {
       <MobileInsights />
       <MobileWhoWeAre />
       <MobileEvents />
+      <MobileFooter />
     </>
   )
 }
