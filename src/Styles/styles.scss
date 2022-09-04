@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+.swiperslide {
+  -webkit-transform: translateZ(0);
+}
+
 //Debugger
 // *:not(path):not(g) {
 //   color: hsla(210, 100%, 100%, 0.9) !important;
