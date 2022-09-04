@@ -1,0 +1,17 @@
+.Modal,
+.Overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.Overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.Modal-content {
+  position: relative;
+  line-height: 1.4;
+  background-image: url('../../imgs/Nav/Mobile/open/bg-link.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
