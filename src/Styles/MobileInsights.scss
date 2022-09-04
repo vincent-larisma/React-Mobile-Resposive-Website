@@ -1,7 +1,50 @@
-// .mobile-banner-background-container {
-//     background-image: url('../imgs/Banner/Mobile/bg.png');
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     padding-bottom: 13rem;
-//   }
+.mobile-insight-background-container {
+  background-color: #001a7a;
+  padding-bottom: 3rem;
+
+  .grid-container-center {
+    .grid-item-insights {
+      max-width: 40rem;
+    }
+
+    .content-size img {
+      width: 40vmin;
+      height: 10vmin;
+    }
+    .content-size-two img {
+      width: 20vmin;
+      height: 10vmin;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+  }
+
+  .card-one::after {
+    content: '';
+    display: block;
+    height: 0.8rem;
+    background: #008c82;
+    margin-bottom: 3rem;
+  }
+
+  .card-two::after {
+    content: '';
+    display: block;
+    height: 0.8rem;
+    background: #008c82;
+  }
+
+  .card-three::after {
+    content: '';
+    display: block;
+    height: 0.8rem;
+    background: #008c82;
+  }
+}

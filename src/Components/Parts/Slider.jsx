@@ -7,14 +7,13 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 import 'swiper/css/pagination'
 
-export default function Slider() {
+export default function Slider({ ContentOne, ContentTwo, ContentThree }) {
   return (
     <>
-      <Swiper modules={[Pagination]} spaceBetween={50} slidesPerView={3} pagination={{ clickable: true }}>
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+      <Swiper modules={[Pagination]} spaceBetween={50} slidesPerView={1.4} pagination={{ clickable: true }}>
+        <SwiperSlide>{ContentOne}</SwiperSlide>
+        <SwiperSlide>{ContentTwo}</SwiperSlide>
+        <SwiperSlide>{ContentThree}</SwiperSlide>
       </Swiper>
     </>
   )
