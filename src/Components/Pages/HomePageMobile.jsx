@@ -2,8 +2,8 @@ import React from 'react'
 import MobileNavBar from '../Parts/MobileNavBar'
 import MobileBanner from '../Parts/MobileBanner'
 import MobileInsights from '../Parts/MobileInsights'
-import WhoWeAre from '../Parts/WhoWeAre'
-import Events from '../Parts/Events'
+import MobileWhoWeAre from '../Parts/MobileWhoWeAre'
+import MobileEvents from '../Parts/MobileEvents'
 import Footer from '../Parts/Footer'
 
 export default function HomePageMobile() {
@@ -12,6 +12,8 @@ export default function HomePageMobile() {
       <MobileNavBar />
       <MobileBanner />
       <MobileInsights />
+      <MobileWhoWeAre />
+      <MobileEvents />
     </>
   )
 }

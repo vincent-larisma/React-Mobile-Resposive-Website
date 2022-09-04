@@ -1,0 +1,35 @@
+.mobile-event-background-container {
+  background-image: url('../imgs/EventsImage/Mobile/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  .event-title-size {
+    max-width: 70vmin;
+  }
+
+  .event-one {
+    background-image: url('../imgs/EventsImage/Mobile/01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 69vmin;
+    width: 69vmin;
+    margin-bottom: 5rem;
+  }
+  .event-two {
+    background-image: url('../imgs/EventsImage/Mobile/02.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 69vmin;
+    width: 69vmin;
+  }
+  .event-three {
+    background-image: url('../imgs/EventsImage/Mobile/01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 69vmin;
+    width: 69vmin;
+  }
+}

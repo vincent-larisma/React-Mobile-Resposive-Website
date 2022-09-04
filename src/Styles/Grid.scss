@@ -1,8 +1,11 @@
 .grid-container {
   display: grid;
   grid-template-columns: [page-start]3rem [md-start]minmax(0, 900px) [md-end] 3rem [page-end];
-}
 
-.grid-container-center {
-  grid-column: md-start / md-end;
+  .grid-container-center {
+    grid-column: md-start / md-end;
+  }
+  .grid-container-page-last {
+    grid-column: md-start / page-end;
+  }
 }

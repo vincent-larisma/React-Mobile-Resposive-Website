@@ -17,7 +17,7 @@ export default function MobileInsights() {
         <div className='grid-container-center pb-4'>
           <img src={Title} alt='content' />
         </div>
-        <div className='grid-container-center '>
+        <div className='grid-container-page-last '>
           <div className='grid-item-insights'>
             <Slider
               ContentOne={
