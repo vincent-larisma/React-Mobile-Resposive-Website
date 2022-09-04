@@ -1,6 +1,6 @@
 .grid-container {
   display: grid;
-  grid-template-columns: [page-start]1fr [md-start]minmax(0, 900px) [md-end] 1fr [page-end];
+  grid-template-columns: [page-start]3rem [md-start]minmax(0, 900px) [md-end] 3rem [page-end];
 }
 
 .grid-container-center {

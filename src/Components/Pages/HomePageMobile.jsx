@@ -1,6 +1,6 @@
 import React from 'react'
 import MobileNavBar from '../Parts/MobileNavBar'
-import Banner from '../Parts/Banner'
+import MobileBanner from '../Parts/MobileBanner'
 import Insights from '../Parts/Insights'
 import WhoWeAre from '../Parts/WhoWeAre'
 import Events from '../Parts/Events'
@@ -10,6 +10,7 @@ export default function HomePageMobile() {
   return (
     <>
       <MobileNavBar />
+      <MobileBanner />
     </>
   )
 }
