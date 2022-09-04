@@ -10,11 +10,11 @@ export default function HomePageMobile() {
   return (
     <>
       <MobileNavBar />
-      {/* <MobileBanner />
+      <MobileBanner />
       <MobileInsights />
       <MobileWhoWeAre />
       <MobileEvents />
-      <MobileFooter /> */}
+      <MobileFooter />
     </>
   )
 }
